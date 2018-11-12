@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Oswald'); 
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
+
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    background: #81868e;
+    height: auto;
+}
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img {
+display: block;
+width: 100%;
+
+}
+
+
+main{
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.2),
+    -30px 0px 40px rgba(0,0,0,0.2);
+}
+
+#landing {
+	background-color: #545454;
+    background-image: url("BackgroundRender2.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-text h2{
+    color: #888;
+}
+
+#landing-image{
+	background-color: #adadad;
+    background-image: url("SpaceStationRender.jpg");
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+
+}
+
+#landing-text-inner .btn{
+    padding: 0.5rem 2rem;
+    border: 1px #252526 solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+}
+
+#tutorials .btn{
+    padding: 0.4rem 1.5rem;
+    border: 1px #252526 solid;
+    display: inline-block;
+    margin: 1rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+}
+
+#foot .btn{
+    padding: .5rem;
+    border: 1px #252526 solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 500ms ease;
+    background-color: #252526;
+}
+
+
+.btn:hover {
+    background: #f4f4f4;
+}
+
+#header {
+
+    padding: 1.5rem;
+    text-align: center;
+    background: #252526;
+    color: #fff;
+
+}
+#header h2{
+
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+
+.caption{
+    padding: 0.8rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3{
+    font-size: 3rem;
+    margin-bottom: 0; 
+}
+
+@media(min-width: 500px){
+    #landing{
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text{
+        height: 100vh;
+    }
+    #landing-image{
+        height: 100vh;
+    }
+}
+
+@media(min-width: 700px){
+    .btn{
+        padding: 1rem 3rem;
+    }
+}
